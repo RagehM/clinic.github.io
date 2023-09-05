@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinic</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <header>
+        <a onclick="AddNew()">New Patient</a>
+        <a onclick="searchforp()">Search for a Patient</a>
+    </header>
+
+    <section>
+        <div class="welcome">
+            <h1>Welcome to Rageh Clinic</h1>
+        </div>
+    </section>
+
+    <section>
+        <div class="new-patient" id="1">
+            <h2>Add New Patient</h2>
+            <div class="inputs">
+                <input type="text" placeholder="Enter Patient Name">
+
+                <input type="number" placeholder="Enter Patient Number">
+
+                <input type="text" placeholder="Enter Patient diagnosis">
+
+                <input type="date" placeholder="Last Visit Date">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="registered-patient" id="2">
+            <h2>Search for a Patient</h2>
+            
+            <div class="inputs">
+                <input type="number" placeholder="Enter Patient Number">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="display-info">
+            <h2>Patient Info</h2>
+            <div class="display">
+                <p id="name">asdas</p>
+                <p id="number">dasdas</p>
+                <p id="diagnosis">dasdas</p>
+                <p id="Last-visit-date">asdas</p>
+            </div>
+        </div>
+    </section>
+    <script src="Script.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+    color: white;
+}
+header {
+    display: flex;
+    background-color: #171717;
+    justify-content: space-evenly;
+}
+header a {
+    padding: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+header a:hover {
+    transition: 0.4s;
+    transform: scale(1.1);
+}
+.welcome {
+    text-align: center;
+    margin-top: 40px;   
+    margin-bottom: 100px;
+}
+body {
+    background-color: #212121;
+}
+input {
+    color: white;
+    background-color: #171717;
+    border: none;
+    border-radius: 20px;
+    height: 50px;
+    padding: 10px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.new-patient {
+    display: none;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.registered-patient {
+    display: none;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.display-info{
+    display: none;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.display{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+
